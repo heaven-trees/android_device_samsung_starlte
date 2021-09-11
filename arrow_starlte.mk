@@ -39,12 +39,12 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 # ArrowOS Properties
 DEVICE_MAINTAINER := Baddar90
 
-BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys"
+BUILD_FINGERPRINT := "samsung/starltexx/starlte:10/QP1A.190711.020/G960FXXUCFTK1:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=starltexx \
-    PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.210805.001.A1 7474174 release-keys"
+    PRIVATE_BUILD_DESC="starltexx-user 10 QP1A.190711.020 G960FXXUCFTK1 release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.PDA=G960FXXUCFTK1 \
-    ro.build.fingerprint=google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys
+    ro.build.fingerprint=samsung/starltexx/starlte:10/QP1A.190711.020/G960FXXUCFTK1:user/release-keys
