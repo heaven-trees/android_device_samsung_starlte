@@ -41,7 +41,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 TARGET_BOOT_ANIMATION_RES := 1440
 
-BUILD_FINGERPRINT := "samsung/starltexx/starlte:10/QP1A.190711.020/G960FXXUCFTK1:user/release-keys"
+BUILD_FINGERPRINT := "google/raven/raven:12/SD1A.210817.036/7805805:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=starltexx \
