@@ -50,3 +50,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.PDA=G960FXXUCFTK1 \
     ro.build.fingerprint=google/raven/raven:12/SD1A.210817.036/7805805:user/release-keys
+
+# Inherit proprietary files
+$(call inherit-product, vendor/samsung/starlte/starlte-vendor.mk)
