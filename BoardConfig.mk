@@ -29,4 +29,4 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE   := 4561305600
 include device/samsung/universal9810-common/BoardConfigCommon.mk
 
 # Inherit common board flags
-include device/samsung/starlte/BoardConfigVendor.mk
+include vendor/samsung/starlte/BoardConfigVendor.mk
